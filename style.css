@@ -1,0 +1,124 @@
+
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3eb;
+    color: #4b3525;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #ffffff;
+}
+
+header h2 {
+    color: #765331;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b3525;
+    margin-left: 20px;
+}
+
+/* Beranda */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e9dcc9;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.button {
+    background-color: #765331;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Menu */
+.menu {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 30px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 12px 0;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    color: #765331;
+}
+
+/* Tentang */
+.about {
+    text-align: center;
+    padding: 60px 15%;
+    background-color: #e9dcc9;
+}
+
+.about p {
+    margin-top: 15px;
+    line-height: 1.7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #4b3525;
+    color: white;
+}
+
+footer p {
+    margin-top: 10px;
+}
